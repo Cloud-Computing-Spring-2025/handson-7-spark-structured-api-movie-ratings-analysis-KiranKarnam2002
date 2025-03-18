@@ -25,14 +25,30 @@ def load_data(spark, file_path):
 def detect_binge_watching_patterns(df):
     """
     Identify the percentage of users in each age group who binge-watch movies.
-
-    TODO: Implement the following steps:
-    1. Filter users who have `IsBingeWatched = True`.
-    2. Group by `AgeGroup` and count the number of binge-watchers.
-    3. Count the total number of users in each age group.
-    4. Calculate the binge-watching percentage for each age group.
     """
-    pass  # Remove this line after implementation
+    # Filter users who have binge-watched
+    binge_watchers_df = df.filter(col("IsBingeWatched") == True)
+    
+    # Count binge-watchers by age group
+    binge_watchers_count = binge_watchers_df.groupBy("AgeGroup").agg(count("UserID").alias("BingeWatchers"))
+    
+    # Count total users by age group
+    total_users_count = df.groupBy("AgeGroup").agg(count("UserID").alias("TotalUsers"))
+    
+    # Join the two DataFrames on AgeGroup
+    result_df = binge_watchers_count.join(total_users_count, on="AgeGroup", how="inner")
+    
+    # Calculate binge-watching percentage for each age group
+    result_df = result_df.withColumn("BingeWatchersPercentage", 
+                                     (col("BingeWatchers") / col("TotalUsers")) * 100)
+    
+    # Round the percentage to 2 decimal places
+    result_df = result_df.withColumn("BingeWatchersPercentage", spark_round(col("BingeWatchersPercentage"), 2))
+    
+    # Select relevant columns: AgeGroup, BingeWatchers, and BingeWatchersPercentage
+    result_df = result_df.select("AgeGroup", "BingeWatchers", "BingeWatchersPercentage")
+    
+    return result_df
 
 def write_output(result_df, output_path):
     """
@@ -46,8 +62,8 @@ def main():
     """
     spark = initialize_spark()
 
-    input_file = "/workspaces/MovieRatingsAnalysis/input/movie_ratings_data.csv"
-    output_file = "/workspaces/MovieRatingsAnalysis/outputs/binge_watching_patterns.csv"
+    input_file = "/workspaces/handson-7-spark-structured-api-movie-ratings-analysis-KiranKarnam2002/input/movie_ratings_data.csv"
+    output_file = "/workspaces/handson-7-spark-structured-api-movie-ratings-analysis-KiranKarnam2002/Outputs/binge_watching_patterns.csv"
 
     df = load_data(spark, input_file)
     result_df = detect_binge_watching_patterns(df)  # Call function here
@@ -56,4 +72,4 @@ def main():
     spark.stop()
 
 if __name__ == "__main__":
-    main()
+    main() 

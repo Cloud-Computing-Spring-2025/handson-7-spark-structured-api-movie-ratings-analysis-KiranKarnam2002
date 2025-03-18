@@ -1,1 +1,101 @@
-
+UserID,MovieID,MovieTitle,Genre,Rating,ReviewCount,WatchedYear,UserLocation,AgeGroup,StreamingPlatform,WatchTime,IsBingeWatched,SubscriptionStatus
+1,351,Parasite,Thriller,3.5,38,2022,India,Teen,Netflix,80,True,Active
+2,333,Spider-Man: No Way Home,Action,4.8,40,2018,Germany,Teen,HBO Max,130,True,Canceled
+3,919,Interstellar,Sci-Fi,4.8,27,2022,UK,Adult,Disney+,232,True,Canceled
+4,294,Parasite,Thriller,2.9,23,2018,France,Teen,Apple TV,220,True,Canceled
+5,663,Forrest Gump,Drama,4.5,24,2023,France,Teen,Amazon,132,False,Canceled
+6,902,The Grand Budapest Hotel,Comedy,2.4,26,2018,Germany,Adult,HBO Max,72,False,Active
+7,372,The Dark Knight,Action,2.7,50,2018,India,Senior,Amazon,153,True,Active
+8,552,The Godfather,Crime,3.9,25,2022,UK,Teen,Hulu,198,False,Active
+9,440,Titanic,Romance,4.6,39,2019,Germany,Adult,Amazon,65,False,Canceled
+10,196,Interstellar,Sci-Fi,4.8,38,2021,India,Teen,Netflix,209,True,Canceled
+11,903,The Lion King,Animation,3.8,43,2023,Germany,Adult,Amazon,156,True,Canceled
+12,627,Toy Story,Animation,4.2,35,2022,UK,Senior,Netflix,145,True,Active
+13,717,Pulp Fiction,Crime,4.4,49,2020,UK,Adult,Amazon,216,False,Active
+14,155,Toy Story,Animation,4.9,32,2023,India,Adult,Hulu,211,False,Canceled
+15,828,The Lion King,Animation,4.9,39,2023,Germany,Senior,Hulu,128,False,Canceled
+16,864,The Godfather,Crime,2.7,43,2020,France,Adult,Hulu,110,False,Active
+17,879,Titanic,Romance,3.2,41,2020,France,Senior,Apple TV,79,True,Active
+18,746,Titanic,Romance,2.3,20,2020,India,Teen,Amazon,215,True,Active
+19,283,The Dark Knight,Action,2.3,24,2021,Canada,Teen,HBO Max,230,True,Canceled
+20,303,The Godfather,Crime,3.9,2,2022,Canada,Teen,Disney+,175,False,Canceled
+21,378,Spider-Man: No Way Home,Action,2.4,42,2022,France,Senior,Hulu,234,False,Active
+22,618,Interstellar,Sci-Fi,4.7,36,2021,Canada,Senior,Netflix,134,False,Canceled
+23,185,The Dark Knight,Action,3.8,19,2021,US,Senior,Netflix,173,False,Active
+24,445,The Matrix,Sci-Fi,4.1,7,2018,Canada,Adult,Apple TV,73,True,Active
+25,218,The Grand Budapest Hotel,Comedy,2.2,6,2021,Germany,Adult,Amazon,61,False,Active
+26,260,Pulp Fiction,Crime,4.4,41,2023,India,Senior,Hulu,87,True,Canceled
+27,297,Parasite,Thriller,2.2,26,2022,Australia,Adult,Amazon,202,False,Active
+28,131,Forrest Gump,Drama,3.3,50,2020,India,Teen,Apple TV,203,True,Canceled
+29,149,Toy Story,Animation,2.8,13,2023,UK,Teen,HBO Max,111,True,Canceled
+30,480,Toy Story,Animation,3.0,25,2018,Canada,Senior,Hulu,97,False,Canceled
+31,956,The Grand Budapest Hotel,Comedy,4.7,26,2023,Australia,Senior,Apple TV,95,True,Active
+32,931,The Grand Budapest Hotel,Comedy,3.9,34,2019,Australia,Adult,Apple TV,197,False,Canceled
+33,803,The Dark Knight,Action,2.6,8,2021,India,Teen,Disney+,215,True,Active
+34,757,The Lion King,Animation,4.9,31,2023,Canada,Teen,HBO Max,226,True,Canceled
+35,656,The Lion King,Animation,4.8,6,2018,France,Adult,Apple TV,96,False,Active
+36,679,Pulp Fiction,Crime,4.2,22,2022,India,Adult,Netflix,220,False,Active
+37,263,Spider-Man: No Way Home,Action,4.9,24,2019,Germany,Teen,HBO Max,201,True,Canceled
+38,401,The Godfather,Crime,4.7,9,2023,US,Senior,Hulu,149,False,Canceled
+39,124,Spider-Man: No Way Home,Action,2.2,10,2018,Canada,Adult,HBO Max,62,True,Canceled
+40,170,Titanic,Romance,3.8,6,2023,Canada,Senior,HBO Max,201,False,Active
+41,997,Titanic,Romance,4.4,34,2018,UK,Senior,Hulu,107,False,Active
+42,888,The Lion King,Animation,2.8,27,2023,Canada,Senior,Hulu,170,True,Active
+43,666,Toy Story,Animation,4.1,48,2023,Canada,Adult,Apple TV,182,False,Active
+44,857,The Lion King,Animation,4.3,22,2018,France,Adult,Apple TV,61,False,Active
+45,500,Toy Story,Animation,4.0,19,2020,Canada,Teen,Disney+,132,True,Canceled
+46,600,Toy Story,Animation,4.9,22,2022,Canada,Senior,Apple TV,172,True,Active
+47,413,The Grand Budapest Hotel,Comedy,3.7,30,2023,France,Senior,Hulu,151,False,Active
+48,151,The Grand Budapest Hotel,Comedy,3.6,31,2018,Australia,Teen,Apple TV,106,False,Active
+49,211,Forrest Gump,Drama,5.0,1,2022,Australia,Senior,Amazon,79,False,Active
+50,333,Toy Story,Animation,4.8,1,2023,France,Adult,HBO Max,143,True,Canceled
+51,712,Inception,Sci-Fi,3.6,16,2022,France,Teen,Netflix,198,True,Active
+52,626,Spider-Man: No Way Home,Action,4.5,41,2018,UK,Adult,Netflix,87,False,Active
+53,788,Titanic,Romance,3.7,47,2020,Germany,Senior,Apple TV,128,False,Canceled
+54,499,Spider-Man: No Way Home,Action,4.7,1,2021,Canada,Senior,HBO Max,226,False,Canceled
+55,741,Parasite,Thriller,2.1,35,2020,Canada,Teen,HBO Max,194,True,Canceled
+56,778,The Godfather,Crime,3.1,15,2020,US,Teen,Amazon,210,False,Active
+57,334,Spider-Man: No Way Home,Action,2.3,46,2018,France,Teen,Amazon,172,False,Active
+58,559,The Godfather,Crime,3.6,47,2018,Germany,Teen,Netflix,157,True,Canceled
+59,573,The Godfather,Crime,3.8,46,2022,UK,Senior,Netflix,91,False,Canceled
+60,696,The Dark Knight,Action,2.6,20,2023,US,Adult,Apple TV,85,False,Active
+61,383,Forrest Gump,Drama,4.3,7,2020,Germany,Senior,Apple TV,190,False,Canceled
+62,544,Titanic,Romance,3.1,34,2022,UK,Teen,HBO Max,113,True,Active
+63,971,The Godfather,Crime,4.5,13,2019,Australia,Senior,HBO Max,215,True,Canceled
+64,670,Avengers: Endgame,Action,3.6,22,2023,UK,Teen,Apple TV,186,False,Active
+65,489,The Lion King,Animation,2.1,7,2022,India,Teen,Apple TV,169,True,Active
+66,368,Avengers: Endgame,Action,3.2,22,2020,Canada,Adult,Netflix,239,False,Canceled
+67,548,Spider-Man: No Way Home,Action,3.5,8,2021,Australia,Adult,Apple TV,215,False,Active
+68,724,The Matrix,Sci-Fi,4.7,15,2018,UK,Teen,Apple TV,113,False,Active
+69,730,Pulp Fiction,Crime,4.5,14,2022,Australia,Teen,HBO Max,65,True,Canceled
+70,391,The Lion King,Animation,3.9,20,2020,Canada,Adult,Disney+,68,True,Canceled
+71,553,Toy Story,Animation,3.3,17,2018,India,Adult,Netflix,156,True,Canceled
+72,788,Pulp Fiction,Crime,4.5,10,2021,US,Adult,Amazon,191,True,Active
+73,105,Titanic,Romance,3.3,31,2021,US,Teen,HBO Max,167,False,Active
+74,858,The Dark Knight,Action,4.3,17,2020,UK,Teen,Disney+,101,True,Active
+75,362,Pulp Fiction,Crime,2.2,4,2020,Australia,Adult,Amazon,103,False,Canceled
+76,207,Pulp Fiction,Crime,2.8,40,2020,France,Teen,Disney+,205,True,Canceled
+77,757,The Shawshank Redemption,Drama,4.8,43,2020,US,Senior,Hulu,235,False,Active
+78,244,The Matrix,Sci-Fi,2.9,18,2020,Australia,Teen,Apple TV,200,True,Canceled
+79,406,Forrest Gump,Drama,3.9,43,2019,Canada,Teen,Amazon,93,False,Canceled
+80,815,Avengers: Endgame,Action,2.2,42,2019,UK,Teen,Amazon,186,True,Active
+81,141,Forrest Gump,Drama,4.8,11,2021,UK,Senior,Netflix,233,True,Active
+82,212,Interstellar,Sci-Fi,4.9,28,2020,US,Senior,Apple TV,111,False,Canceled
+83,930,The Grand Budapest Hotel,Comedy,3.3,42,2022,Canada,Adult,Apple TV,172,False,Active
+84,769,Interstellar,Sci-Fi,3.3,42,2023,Canada,Teen,Netflix,85,True,Canceled
+85,210,The Godfather,Crime,2.4,50,2022,India,Adult,Amazon,62,False,Active
+86,320,Inception,Sci-Fi,2.4,6,2021,Canada,Adult,Disney+,160,False,Canceled
+87,610,The Grand Budapest Hotel,Comedy,2.2,43,2021,Canada,Senior,Disney+,135,True,Active
+88,256,The Matrix,Sci-Fi,4.5,15,2021,US,Senior,Amazon,188,False,Canceled
+89,429,The Lion King,Animation,4.8,35,2023,India,Adult,Hulu,109,False,Active
+90,413,The Shawshank Redemption,Drama,4.3,28,2019,UK,Teen,Disney+,104,True,Canceled
+91,579,Inception,Sci-Fi,2.4,43,2018,Germany,Adult,Apple TV,68,False,Canceled
+92,307,Inception,Sci-Fi,2.4,27,2018,UK,Teen,HBO Max,222,True,Canceled
+93,951,Forrest Gump,Drama,2.6,17,2018,France,Senior,Hulu,192,True,Canceled
+94,123,Pulp Fiction,Crime,4.0,6,2021,India,Teen,Amazon,232,False,Active
+95,428,Inception,Sci-Fi,3.0,49,2023,Germany,Senior,Amazon,71,True,Active
+96,774,The Dark Knight,Action,4.3,1,2020,Australia,Adult,Hulu,209,True,Canceled
+97,143,Interstellar,Sci-Fi,2.1,11,2021,Germany,Teen,HBO Max,80,False,Canceled
+98,178,The Matrix,Sci-Fi,4.3,16,2019,US,Senior,HBO Max,81,False,Active
+99,535,Forrest Gump,Drama,3.8,11,2019,US,Teen,Disney+,169,False,Canceled
+100,281,Parasite,Thriller,2.2,33,2019,Australia,Senior,Apple TV,202,False,Canceled
